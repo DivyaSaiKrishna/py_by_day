@@ -9,7 +9,7 @@ def third(data):
             largest = rec;
 
         elif rec < largest and rec > second:
-            third = second
+            third = secondx
             second = rec;
 
         elif rec < second and rec > third:
