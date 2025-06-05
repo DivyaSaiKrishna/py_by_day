@@ -23,8 +23,11 @@ class BankAccount:
         print(f"Name: {self.fname} {self.lname}")
         print(f"Phone: {self.pnumber}")
         print(f"Email: {self.email}")
-        print(f"Min Balance: ₹{self.minaccountbalance}")
-        print(f"Current Balance: ₹{self.currentBalance}")
+        print(f"Min Balance: ${self.minaccountbalance}")
+        print(f"Current Balance: ${self.currentBalance}")
+
+    def __str__(self):
+        return f"Name: {self.fname} {self.lname} Current Balance: ${self.currentBalance}"
 
 myBankAccount = BankAccount("divya","avvaru",779491365, "divya@email.com", 13023566)
 myBankAccount.accountInfo()
@@ -36,6 +39,7 @@ print("----------")
 #credit
 myBankAccount.credit(365)
 myBankAccount.accountInfo()
+print(myBankAccount)
 
 
 
