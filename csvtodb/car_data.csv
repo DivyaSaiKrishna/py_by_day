@@ -1,0 +1,11 @@
+model,price,milage,makeyear,bodytype,transmission
+Maruti Swift,900000,18,2019,Hatchback,Manual
+Hyundai i20,1200000,22,2020,Hatchback,Automatic
+Tesla Model 3,4000000,0,2022,Sedan,Automatic
+Nexon EV,3500000,0,2021,SUV,Automatic
+Porsche 911,15000000,8,2018,Coupe,Manual
+Lamborghini Huracan,18000000,6,2020,Coupe,Automatic
+Honda City,1200000,17,2021,Sedan,Manual
+Kia Seltos,1500000,20,2022,SUV,Automatic
+MG ZS EV,2200000,0,2023,SUV,Automatic
+Toyota Fortuner,3500000,12,2022,SUV,Manual
